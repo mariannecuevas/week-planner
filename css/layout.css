@@ -1,0 +1,29 @@
+.hidden {
+  display: none !important;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.row {
+  display: flex;
+}
+
+.modal-row {
+  display: flex;
+}
+
+.modal-column {
+  display: flex;
+  justify-content: flex-start;
+  flex-basis: 100%;
+}
+
+.column-full {
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
+}

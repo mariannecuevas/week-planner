@@ -1,0 +1,83 @@
+body {
+  font-family: Play, sans-serif;
+}
+
+header {
+  margin-top: 5rem;
+}
+
+.add-entry-btn {
+  font-family: Play, sans-serif;
+  font-weight: bold;
+  margin-top: 15rem;
+  background-color: #ddf1fd;
+  border: none;
+  cursor: pointer;
+  padding: 1.25rem 5rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem black;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.modal-container {
+  background-color: rgb(0 0 0 / 65%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+}
+
+.modal-content {
+  display: flex;
+  width: 625px;
+  height: 415px;
+  flex-direction: column;
+  margin: auto;
+  padding: 25px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #dfd4e9;
+}
+
+.modal-header {
+  color: white;
+  text-shadow: 1px 1px 1.5px rgb(116, 114, 114);
+}
+
+.right-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+textarea {
+  margin: 2rem 0;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid rgb(189 189 189);
+  resize: none;
+  font-size: 1rem;
+}
+
+select {
+  font-size: 1rem;
+  font-family: inherit;
+  background-color: white;
+  border: 1px solid rgb(189 189 189);
+  padding: 3px 16px 3px 3px;
+  margin-right: 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn {
+  font-family: Play, sans-serif;
+  background-color: #ddf1fd;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem 1.7rem;
+  box-shadow: 0.5px 0.5px 1px rgb(134, 129, 129);
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
